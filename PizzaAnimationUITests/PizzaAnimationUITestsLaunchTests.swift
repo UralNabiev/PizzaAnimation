@@ -1,8 +1,8 @@
 //
-//  PizzaAnimationUITestsLaunchTests.swift
-//  PizzaAnimationUITests
+//  ParallaxAppUITestsLaunchTests.swift
+//  ParallaxAppUITests
 //
-//  Created by O'ral Nabiyev on 03/04/24.
+//  Created by O'ral Nabiyev on 12/03/24.
 //
 
 import XCTest

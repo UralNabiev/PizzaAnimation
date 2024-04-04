@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F2B220BE575646C762D84A6 /* Pods_PizzaAnimationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A9D1E50AE180912236EC6F /* Pods_PizzaAnimationTests.framework */; };
 		AF0379932BBCFF4D00643521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0379922BBCFF4D00643521 /* AppDelegate.swift */; };
-		AF0379952BBCFF4D00643521 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0379942BBCFF4D00643521 /* SceneDelegate.swift */; };
-		AF0379972BBCFF4D00643521 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0379962BBCFF4D00643521 /* ViewController.swift */; };
-		AF03799A2BBCFF4D00643521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0379982BBCFF4D00643521 /* Main.storyboard */; };
 		AF03799C2BBCFF5000643521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF03799B2BBCFF5000643521 /* Assets.xcassets */; };
 		AF03799F2BBCFF5000643521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF03799D2BBCFF5000643521 /* LaunchScreen.storyboard */; };
-		AF0379AA2BBCFF5000643521 /* PizzaAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0379A92BBCFF5000643521 /* PizzaAnimationTests.swift */; };
-		AF0379B42BBCFF5000643521 /* PizzaAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0379B32BBCFF5000643521 /* PizzaAnimationUITests.swift */; };
-		AF0379B62BBCFF5000643521 /* PizzaAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0379B52BBCFF5000643521 /* PizzaAnimationUITestsLaunchTests.swift */; };
+		AF0379C42BBD014400643521 /* PizzaAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0379C22BBD014400643521 /* PizzaAnimationVC.swift */; };
+		AF0379C52BBD014400643521 /* PizzaAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF0379C32BBD014400643521 /* PizzaAnimationVC.xib */; };
+		AF0379C92BBD0E1800643521 /* Ex+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0379C82BBD0E1800643521 /* Ex+UIView.swift */; };
+		AF0379CC2BBD13AE00643521 /* IngredientsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0379CA2BBD13AE00643521 /* IngredientsCVC.swift */; };
+		AF0379CD2BBD13AE00643521 /* IngredientsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF0379CB2BBD13AE00643521 /* IngredientsCVC.xib */; };
+		AF3CFCED2BBDD60600B96D47 /* PizzaIngredientsDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3CFCEC2BBDD60600B96D47 /* PizzaIngredientsDM.swift */; };
+		AF3CFCF02BBDDD9900B96D47 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3CFCEE2BBDDD9900B96D47 /* StartVC.swift */; };
+		AF3CFCF12BBDDD9900B96D47 /* StartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3CFCEF2BBDDD9900B96D47 /* StartVC.xib */; };
+		AF3CFCF52BBDE31900B96D47 /* done.json in Resources */ = {isa = PBXBuildFile; fileRef = AF3CFCF42BBDE31900B96D47 /* done.json */; };
+		B19A70A09397E533F920DC55 /* Pods_PizzaAnimation_PizzaAnimationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6E9A3535E64CCABA81DC9 /* Pods_PizzaAnimation_PizzaAnimationUITests.framework */; };
+		ECE6331A4FF5D3ECFD8482ED /* Pods_PizzaAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D82F8A1DFAEFC19B857219F /* Pods_PizzaAnimation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +42,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29BD615AD225C6FC97F59C9B /* Pods-PizzaAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaAnimation.debug.xcconfig"; path = "Target Support Files/Pods-PizzaAnimation/Pods-PizzaAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		4EA2A9B836B4D4ABC187702A /* Pods-PizzaAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaAnimationTests.release.xcconfig"; path = "Target Support Files/Pods-PizzaAnimationTests/Pods-PizzaAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
+		63388AF1E8A1FD99603CF9D1 /* Pods-PizzaAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaAnimation.release.xcconfig"; path = "Target Support Files/Pods-PizzaAnimation/Pods-PizzaAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		78D6E9A3535E64CCABA81DC9 /* Pods_PizzaAnimation_PizzaAnimationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PizzaAnimation_PizzaAnimationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C5D6E677335BFD57C2DD03 /* Pods-PizzaAnimation-PizzaAnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaAnimation-PizzaAnimationUITests.release.xcconfig"; path = "Target Support Files/Pods-PizzaAnimation-PizzaAnimationUITests/Pods-PizzaAnimation-PizzaAnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D82F8A1DFAEFC19B857219F /* Pods_PizzaAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PizzaAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF03798F2BBCFF4D00643521 /* PizzaAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0379922BBCFF4D00643521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF0379942BBCFF4D00643521 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF0379962BBCFF4D00643521 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF0379992BBCFF4D00643521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF03799B2BBCFF5000643521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF03799E2BBCFF5000643521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF0379A02BBCFF5000643521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF0379A52BBCFF5000643521 /* PizzaAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF0379A92BBCFF5000643521 /* PizzaAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaAnimationTests.swift; sourceTree = "<group>"; };
 		AF0379AF2BBCFF5000643521 /* PizzaAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF0379B32BBCFF5000643521 /* PizzaAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaAnimationUITests.swift; sourceTree = "<group>"; };
-		AF0379B52BBCFF5000643521 /* PizzaAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF0379C22BBD014400643521 /* PizzaAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaAnimationVC.swift; sourceTree = "<group>"; };
+		AF0379C32BBD014400643521 /* PizzaAnimationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PizzaAnimationVC.xib; sourceTree = "<group>"; };
+		AF0379C82BBD0E1800643521 /* Ex+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ex+UIView.swift"; sourceTree = "<group>"; };
+		AF0379CA2BBD13AE00643521 /* IngredientsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsCVC.swift; sourceTree = "<group>"; };
+		AF0379CB2BBD13AE00643521 /* IngredientsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientsCVC.xib; sourceTree = "<group>"; };
+		AF3CFCEC2BBDD60600B96D47 /* PizzaIngredientsDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaIngredientsDM.swift; sourceTree = "<group>"; };
+		AF3CFCEE2BBDDD9900B96D47 /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		AF3CFCEF2BBDDD9900B96D47 /* StartVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartVC.xib; sourceTree = "<group>"; };
+		AF3CFCF42BBDE31900B96D47 /* done.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = done.json; sourceTree = "<group>"; };
+		B25E0443D3BF0A8904872791 /* Pods-PizzaAnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaAnimationTests.debug.xcconfig"; path = "Target Support Files/Pods-PizzaAnimationTests/Pods-PizzaAnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1A9D1E50AE180912236EC6F /* Pods_PizzaAnimationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PizzaAnimationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34E220CCA469E4D1EE4E639 /* Pods-PizzaAnimation-PizzaAnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaAnimation-PizzaAnimationUITests.debug.xcconfig"; path = "Target Support Files/Pods-PizzaAnimation-PizzaAnimationUITests/Pods-PizzaAnimation-PizzaAnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE6331A4FF5D3ECFD8482ED /* Pods_PizzaAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F2B220BE575646C762D84A6 /* Pods_PizzaAnimationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +90,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19A70A09397E533F920DC55 /* Pods_PizzaAnimation_PizzaAnimationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		434A205F827E45E74A01D938 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29BD615AD225C6FC97F59C9B /* Pods-PizzaAnimation.debug.xcconfig */,
+				63388AF1E8A1FD99603CF9D1 /* Pods-PizzaAnimation.release.xcconfig */,
+				F34E220CCA469E4D1EE4E639 /* Pods-PizzaAnimation-PizzaAnimationUITests.debug.xcconfig */,
+				89C5D6E677335BFD57C2DD03 /* Pods-PizzaAnimation-PizzaAnimationUITests.release.xcconfig */,
+				B25E0443D3BF0A8904872791 /* Pods-PizzaAnimationTests.debug.xcconfig */,
+				4EA2A9B836B4D4ABC187702A /* Pods-PizzaAnimationTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D92AA49CE07247F79313358 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D82F8A1DFAEFC19B857219F /* Pods_PizzaAnimation.framework */,
+				78D6E9A3535E64CCABA81DC9 /* Pods_PizzaAnimation_PizzaAnimationUITests.framework */,
+				D1A9D1E50AE180912236EC6F /* Pods_PizzaAnimationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF0379862BBCFF4D00643521 = {
 			isa = PBXGroup;
 			children = (
 				AF0379912BBCFF4D00643521 /* PizzaAnimation */,
-				AF0379A82BBCFF5000643521 /* PizzaAnimationTests */,
-				AF0379B22BBCFF5000643521 /* PizzaAnimationUITests */,
 				AF0379902BBCFF4D00643521 /* Products */,
+				434A205F827E45E74A01D938 /* Pods */,
+				9D92AA49CE07247F79313358 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,31 +144,20 @@
 			isa = PBXGroup;
 			children = (
 				AF0379922BBCFF4D00643521 /* AppDelegate.swift */,
-				AF0379942BBCFF4D00643521 /* SceneDelegate.swift */,
-				AF0379962BBCFF4D00643521 /* ViewController.swift */,
-				AF0379982BBCFF4D00643521 /* Main.storyboard */,
 				AF03799B2BBCFF5000643521 /* Assets.xcassets */,
 				AF03799D2BBCFF5000643521 /* LaunchScreen.storyboard */,
 				AF0379A02BBCFF5000643521 /* Info.plist */,
+				AF3CFCF42BBDE31900B96D47 /* done.json */,
+				AF3CFCEE2BBDDD9900B96D47 /* StartVC.swift */,
+				AF3CFCEF2BBDDD9900B96D47 /* StartVC.xib */,
+				AF0379C22BBD014400643521 /* PizzaAnimationVC.swift */,
+				AF0379C32BBD014400643521 /* PizzaAnimationVC.xib */,
+				AF0379CA2BBD13AE00643521 /* IngredientsCVC.swift */,
+				AF0379CB2BBD13AE00643521 /* IngredientsCVC.xib */,
+				AF0379C82BBD0E1800643521 /* Ex+UIView.swift */,
+				AF3CFCEC2BBDD60600B96D47 /* PizzaIngredientsDM.swift */,
 			);
 			path = PizzaAnimation;
-			sourceTree = "<group>";
-		};
-		AF0379A82BBCFF5000643521 /* PizzaAnimationTests */ = {
-			isa = PBXGroup;
-			children = (
-				AF0379A92BBCFF5000643521 /* PizzaAnimationTests.swift */,
-			);
-			path = PizzaAnimationTests;
-			sourceTree = "<group>";
-		};
-		AF0379B22BBCFF5000643521 /* PizzaAnimationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AF0379B32BBCFF5000643521 /* PizzaAnimationUITests.swift */,
-				AF0379B52BBCFF5000643521 /* PizzaAnimationUITestsLaunchTests.swift */,
-			);
-			path = PizzaAnimationUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF0379B92BBCFF5000643521 /* Build configuration list for PBXNativeTarget "PizzaAnimation" */;
 			buildPhases = (
+				0C76D8DB1814384921A92EA7 /* [CP] Check Pods Manifest.lock */,
 				AF03798B2BBCFF4D00643521 /* Sources */,
 				AF03798C2BBCFF4D00643521 /* Frameworks */,
 				AF03798D2BBCFF4D00643521 /* Resources */,
+				8D4B439F48FA37476CCD80ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF0379BC2BBCFF5000643521 /* Build configuration list for PBXNativeTarget "PizzaAnimationTests" */;
 			buildPhases = (
+				07368176FF28E253A937E883 /* [CP] Check Pods Manifest.lock */,
 				AF0379A12BBCFF5000643521 /* Sources */,
 				AF0379A22BBCFF5000643521 /* Frameworks */,
 				AF0379A32BBCFF5000643521 /* Resources */,
@@ -169,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF0379BF2BBCFF5000643521 /* Build configuration list for PBXNativeTarget "PizzaAnimationUITests" */;
 			buildPhases = (
+				A2C3C097890C8FE19B2CD4F9 /* [CP] Check Pods Manifest.lock */,
 				AF0379AB2BBCFF5000643521 /* Sources */,
 				AF0379AC2BBCFF5000643521 /* Frameworks */,
 				AF0379AD2BBCFF5000643521 /* Resources */,
+				786D0994E5488FB7982D8B15 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +269,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF0379C52BBD014400643521 /* PizzaAnimationVC.xib in Resources */,
+				AF3CFCF12BBDDD9900B96D47 /* StartVC.xib in Resources */,
+				AF3CFCF52BBDE31900B96D47 /* done.json in Resources */,
 				AF03799F2BBCFF5000643521 /* LaunchScreen.storyboard in Resources */,
 				AF03799C2BBCFF5000643521 /* Assets.xcassets in Resources */,
-				AF03799A2BBCFF4D00643521 /* Main.storyboard in Resources */,
+				AF0379CD2BBD13AE00643521 /* IngredientsCVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +294,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07368176FF28E253A937E883 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PizzaAnimationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C76D8DB1814384921A92EA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PizzaAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		786D0994E5488FB7982D8B15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PizzaAnimation-PizzaAnimationUITests/Pods-PizzaAnimation-PizzaAnimationUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PizzaAnimation-PizzaAnimationUITests/Pods-PizzaAnimation-PizzaAnimationUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PizzaAnimation-PizzaAnimationUITests/Pods-PizzaAnimation-PizzaAnimationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D4B439F48FA37476CCD80ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PizzaAnimation/Pods-PizzaAnimation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PizzaAnimation/Pods-PizzaAnimation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PizzaAnimation/Pods-PizzaAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2C3C097890C8FE19B2CD4F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PizzaAnimation-PizzaAnimationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF03798B2BBCFF4D00643521 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF0379972BBCFF4D00643521 /* ViewController.swift in Sources */,
+				AF0379C42BBD014400643521 /* PizzaAnimationVC.swift in Sources */,
+				AF0379C92BBD0E1800643521 /* Ex+UIView.swift in Sources */,
+				AF3CFCED2BBDD60600B96D47 /* PizzaIngredientsDM.swift in Sources */,
 				AF0379932BBCFF4D00643521 /* AppDelegate.swift in Sources */,
-				AF0379952BBCFF4D00643521 /* SceneDelegate.swift in Sources */,
+				AF0379CC2BBD13AE00643521 /* IngredientsCVC.swift in Sources */,
+				AF3CFCF02BBDDD9900B96D47 /* StartVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +415,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF0379AA2BBCFF5000643521 /* PizzaAnimationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +422,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF0379B62BBCFF5000643521 /* PizzaAnimationUITestsLaunchTests.swift in Sources */,
-				AF0379B42BBCFF5000643521 /* PizzaAnimationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +441,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AF0379982BBCFF4D00643521 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF0379992BBCFF4D00643521 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF03799D2BBCFF5000643521 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -353,7 +489,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -368,7 +504,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -416,7 +552,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -425,7 +561,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -437,6 +573,7 @@
 		};
 		AF0379BA2BBCFF5000643521 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BD615AD225C6FC97F59C9B /* Pods-PizzaAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,9 +584,10 @@
 				INFOPLIST_FILE = PizzaAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +603,7 @@
 		};
 		AF0379BB2BBCFF5000643521 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63388AF1E8A1FD99603CF9D1 /* Pods-PizzaAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,9 +614,10 @@
 				INFOPLIST_FILE = PizzaAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,6 +633,7 @@
 		};
 		AF0379BD2BBCFF5000643521 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25E0443D3BF0A8904872791 /* Pods-PizzaAnimationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +654,7 @@
 		};
 		AF0379BE2BBCFF5000643521 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA2A9B836B4D4ABC187702A /* Pods-PizzaAnimationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +675,7 @@
 		};
 		AF0379C02BBCFF5000643521 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34E220CCA469E4D1EE4E639 /* Pods-PizzaAnimation-PizzaAnimationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +694,7 @@
 		};
 		AF0379C12BBCFF5000643521 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C5D6E677335BFD57C2DD03 /* Pods-PizzaAnimation-PizzaAnimationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

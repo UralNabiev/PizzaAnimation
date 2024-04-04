@@ -1,12 +1,12 @@
 //
-//  PizzaAnimationTests.swift
-//  PizzaAnimationTests
+//  ParallaxAppTests.swift
+//  ParallaxAppTests
 //
-//  Created by O'ral Nabiyev on 03/04/24.
+//  Created by O'ral Nabiyev on 12/03/24.
 //
 
 import XCTest
-@testable import PizzaAnimation
+@testable import ParallaxApp
 
 final class PizzaAnimationTests: XCTestCase {
 
